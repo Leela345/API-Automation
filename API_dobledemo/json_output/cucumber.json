@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Check if user is able to delete data from  API",
+        "description": "",
+        "id": "this-feature-is-to-delete--data-from--api;check-if-user-is-able-to-delete-data-from--api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126170300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to execute service DeleteOrder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DeleteOrder",
+                  "offset": 26
+                }
+              ],
+              "location": "TestAPI.givenIwantToexecuteSercive(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22332703800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I submit the Delete Mentioned request as per the data in Excel Worksheet 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 73
+                }
+              ],
+              "location": "TestAPI.I_submit_DELETE_Mentioned_request(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4386400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate status code",
+            "match": {
+              "location": "TestAPI.whenIvalidateStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to Delete  data from  API",
+    "description": "",
+    "id": "this-feature-is-to-delete--data-from--api",
+    "keyword": "Feature",
+    "uri": "C:/Automation Stuff/API Automation/Leela_API-master/API_Demo/API_dobledemo/src/main/java/Features/DELETEAPI.feature"
+  }
+]

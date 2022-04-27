@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.463261">
+<testcase classname="This feature is to Delete  data from  API" name="Check if user is able to delete data from  API" time="22.463261">
+<system-out><![CDATA[Given I want to execute service DeleteOrder.................................passed
+When I submit the Delete Mentioned request as per the data in Excel Worksheet 4.passed
+Then I validate status code.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
